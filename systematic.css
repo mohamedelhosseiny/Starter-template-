@@ -1,0 +1,133 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  width: 100%;
+  height: 64px;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.59);
+  background-color: #03a9f4;
+}
+
+.navbar_container {
+  width: 65%;
+  margin: 0 auto;
+
+  /*margin-right: 15%;
+  margin-left: 15%;*/
+}
+
+.nav_item {
+  margin: 0;
+  color: white;
+  padding-top: 15px;
+}
+
+.float_right {
+  font-size: 17px;
+  font-weight: normal;
+  padding-top: 6px;
+  float: right;
+}
+
+
+.container {
+  margin: 105px 250px 100px 250px;
+}
+
+.main_header {
+  text-align: center;
+  font-weight: normal;
+  font-size: 60px;
+  color: orange;
+}
+
+.paragraph {
+  font-weight: 300;
+  text-align: center;
+  font-size: 25;
+}
+
+.button {
+  background-color: orange;
+  color: white;
+  border: 0;
+  border-radius: 2px;
+  font-size: 15;
+  padding: 15px 25px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 40px;
+}
+
+.button:hover {
+cursor: pointer;
+ box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.43);
+}
+
+.columns_container {display: flex;
+justify-content: space-around;
+margin: 0 15%;
+margin-bottom: 30px;
+height: auto;}
+
+.columns_container i {color: #03a9f4;
+  display: block;
+  text-align: center;
+    font-size: 59;
+    margin-bottom: 40px;
+}
+
+.columns_container h2 {text-align: center;
+font-weight: normal;}
+
+.columns_container p {text-align: left;
+font-weight: lighter;}
+
+.columns {width: 28%;}
+
+
+.footer_parent {
+display: flex;
+justify-content: flex-start;
+color: white;
+height: auto;
+background-color: orange;
+margin-bottom: 0;
+text-align: left;}
+
+.footer_parent ul {list-style-type: none;
+margin: 0;
+padding: 0;
+line-height: 1.5em;}
+
+.footer_parent a {color: white;
+text-decoration: none;}
+
+.footer_son {margin-bottom: 50px;}
+
+.footer_son:first-child {width: 35%;
+  margin: 0;
+margin-left: 220px;}
+
+.footer_son:last-child {margin-left: 80px;} 
+
+.copyright {background-color: #ff5e00;
+  font-weight: lighter;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+margin: 0;
+height: 40px;}
+
+.copyright p {margin: 0;
+  margin-left: 220px;}
+
+.copyright a {text-decoration: none;
+color: white;}
